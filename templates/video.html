@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ categoria.nome_filme }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/633/633832.png" />
+</head>
+<div>
+  <h1>{{ categoria.nome_filme }}</h1>
+  <iframe class="video" src={{ categoria.video_path }}></iframe>
+  <div class="texto"><p>{{ categoria.descricao }}</p></div>
+</div>
+</body>
+</html>

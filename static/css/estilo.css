@@ -1,0 +1,53 @@
+
+body{
+    background-image: url('/static/img/f.png');
+}
+
+h1{
+    font-family: Arial;
+    color: white;
+    font-size: 5vh;
+}
+
+p{
+    font-family: Arial;
+    color: white;
+
+
+}
+
+.imagem_filme{
+    height: 30vh ;
+    width: 50vh;
+    border-radius: 1vh;
+    cursor: pointer;
+
+}
+
+.video{
+    height: 50vh ;
+    width: 70vh ;
+    border-radius: 1vh;
+    border-color: gold;
+
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1vh;
+    width: 50vh;
+    border-radius: 4vh;
+    font-family: Arial;
+    font-size: 2vh;
+
+
+
+
+}
+
+h2{
+    color: white;
+    font-family: Arial;
+}
