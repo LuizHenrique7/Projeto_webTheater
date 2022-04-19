@@ -7,10 +7,15 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/633/633832.png" />
 </head>
-<div>
+<body>
+
   <h1>{{ categoria.nome_filme }}</h1>
   <iframe class="video" src={{ categoria.video_path }}></iframe>
+    <p><button class="curtir curtir1"><img class='afirmativo' src="{% static 'img/afirmativo.png' %}"></button></p>
   <div class="texto"><p>{{ categoria.descricao }}</p></div>
-</div>
+
+<input type="text" placeholder="Adicione um comentário…">
+<button class="comentar comentar1">Comentar</button><button class="cancelar cancelar1">Cancelar</button>
+
 </body>
 </html>
